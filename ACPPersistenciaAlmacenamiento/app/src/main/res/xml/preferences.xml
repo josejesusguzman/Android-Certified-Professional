@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Datos de la cuenta">
+
+        <EditTextPreference
+            android:key="usuario"
+            android:summary="Ingresa el nombre de usaurio"
+            android:title="Nombre"/>
+
+        <EditTextPreference
+            android:key="contra"
+            android:summary="Ingrese la contraseña"
+            android:title="Contraseña"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Datos de interes">
+
+        <ListPreference
+            android:dialogTitle="Selecciona una opcion"
+            android:entries="@array/opciones_simple"
+            android:entryValues="@array/opciones_simple"
+            android:key="single_choice"
+            android:summary="¿Cuantos celulares tienes?"/>
+
+        <MultiSelectListPreference
+            android:dialogTitle="Sistemas opereativos moviles"
+            android:entries="@array/opciones_multiple"
+            android:entryValues="@array/opciones_multiple"
+            android:key="multiple_choice"
+            android:summary="Sistemas operativos moviles principales"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

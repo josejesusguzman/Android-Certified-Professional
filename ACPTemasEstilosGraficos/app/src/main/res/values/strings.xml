@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ACPTemasEstilosGraficos</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="texto_estilo">TextView con estilo</string>
+    <string name="texto_imagen_normal">Boton con imagen normal</string>
+    <string name="texto_imagen_drawpatch">Boton con imagen draw9Patch</string>
+
+</resources>

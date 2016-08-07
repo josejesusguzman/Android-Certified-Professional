@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ACPMenus</string>
+    <string name="menu_contextual">Menú contextual</string>
+    <string name="menu_popup">Menú PopUp</string>
+</resources>

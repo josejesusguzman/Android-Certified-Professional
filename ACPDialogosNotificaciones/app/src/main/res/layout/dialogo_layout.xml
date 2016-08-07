@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dialogo_txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:text="Aqui no se pueden poner los corazones"/>
+
+    <ImageView
+        android:id="@+id/dialogo_img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@id/dialogo_txt1"/>
+
+    <ImageView
+        android:id="@+id/dialogo_img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@id/dialogo_txt1"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:id="@+id/dialogo_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"
+        android:layout_below="@id/dialogo_img1"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

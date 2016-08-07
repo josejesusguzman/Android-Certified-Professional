@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.josejesus.acpavanzadosservicios.ServicioIniciadoActivity">
+
+    <Button
+        android:id="@+id/iniciado_btn_iniciarServicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar servicio"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/iniciado_btn_detenerServicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detener Servicio"
+        android:layout_below="@id/iniciado_btn_iniciarServicio"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

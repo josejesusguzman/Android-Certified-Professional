@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ACPInterfacesYControles</string>
+
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="selecciona_color">Selecciona color</string>
+    <string name="presioname">Presioname</string>
+</resources>

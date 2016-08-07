@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context="com.example.josejesus.acpintegracionredessocialesfacebook.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main_lay_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFF">
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/main_face_loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            facebook:com_facebook_confirm_logout="false"
+            facebook:com_facebook_tooltip_mode="never_display"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_lay_container2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.facebook.login.widget.ProfilePictureView
+            android:id="@+id/main_face_profilePicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            facebook:com_facebook_preset_size="normal"/>
+
+        <TextView
+            android:id="@+id/main_txt_saludo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#333"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/main_btn_postStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Publicar en Facebook"/>
+
+    </LinearLayout>
+
+</LinearLayout>

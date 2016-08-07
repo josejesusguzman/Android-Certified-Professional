@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ACPDialogosNotificaciones</string>
+
+    <array name="opciones_lista">
+        <item>Dialogo de alerta</item>
+        <item>Dialogo de Opciones</item>
+        <item>Dialogo personalizado</item>
+        <item>Dialogo de progreso</item>
+        <item>Notificación</item>
+        <item>Toast simple</item>
+        <item>Toast Personalizado</item>
+    </array>
+
+</resources>

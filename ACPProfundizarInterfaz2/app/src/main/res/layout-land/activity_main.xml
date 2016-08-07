@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <fragment
+        android:id="@+id/fragTitulo"
+        class="com.example.josejesus.acpprofundizarinterfaz2.MainActivity$DetalleFragmento"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <FrameLayout
+        android:id="@+id/fragDetalle"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?android:attr/detailsElementBackground"/>
+    <!--dentro de las secciones de android-->
+
+</LinearLayout>

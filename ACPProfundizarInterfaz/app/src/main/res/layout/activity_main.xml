@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:myView="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.josejesus.acpprofundizarinterfaz.MainActivity">
+
+    <Button
+        android:id="@+id/main_btn_presionar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Presioname :3"/>
+
+    <!--Traes el objeto mi vista -->
+    <com.example.josejesus.acpprofundizarinterfaz.MiVista
+        android:id="@+id/main_miVista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        myView:etiquetaCirculo="Mari mira te amo."/>
+
+</RelativeLayout>

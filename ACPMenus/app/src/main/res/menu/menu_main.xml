@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/contactos"
+        android:title="Ver contactos"
+        android:icon="@android:drawable/ic_menu_agenda"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/llamar"
+        android:title="Realizar llamada"
+        android:icon="@android:drawable/ic_menu_call"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/ver_mapa"
+        android:title="Abrir mapa"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/navegar"
+        android:title="Abrir navegador"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="never"/>
+
+
+
+</menu>
